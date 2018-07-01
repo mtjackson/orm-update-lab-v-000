@@ -44,6 +44,9 @@ class Student
   end
 
   def self.create
+    song = Song.new(name, album)
+song.save
+song
   end
 
   def self.new_from_db(row)
