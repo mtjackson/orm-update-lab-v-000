@@ -43,6 +43,6 @@ class Student
     end
   end
 
-  def
+  def self.create
 
 end
